@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" id="zombo" class="active">Zombo.com</a>
+  <a href="#news" style="float:right;margin-right:11.6%">Feactures</a>
+  <a href="#contact" style="float:right;">Pricing</a>
+  <a href="#about" style="float:right;">Demo</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<div id="p1"></div>
+<div id="z1">It's Zombo.com</div>
+<hr>
+      <div>
+<div class="v1"></div>
+<div class="v2"></div>
+<div class="b"></div>
+
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</body>
+</html>
